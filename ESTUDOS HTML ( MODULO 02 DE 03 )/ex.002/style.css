@@ -30,8 +30,18 @@
   list-style: none;
 }
 
-body {
+body { 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: #F2F2F2
+  
+}
+
+.logo {
+padding-top: 50px;
+
+
 }
 
 header {
@@ -88,3 +98,11 @@ font-family: var(--fonte-base);
 color: #737373;
 
 }
+
+h2 {
+
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+  
