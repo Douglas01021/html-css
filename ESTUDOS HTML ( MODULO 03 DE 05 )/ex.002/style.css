@@ -1,6 +1,5 @@
 body {
-    background-image: url(Imagens/mascote.png);
+    background-image: url(imagem/mascote.png);
     background-repeat: repeat-x;
-    background-size: 10%;
-
+    background-size: 10%; 
 }
