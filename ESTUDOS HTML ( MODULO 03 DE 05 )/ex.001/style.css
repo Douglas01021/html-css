@@ -1,28 +1,6 @@
 body {
-background-image: url(Imagens/pattern004.png);
-}
+    background-image: url(Imagens/mascote.png);
+    background-repeat: repeat-x;
+    background-size: 10%;
 
-div.caixa {
-  display: inline-block;
-  background-color: rgb(99, 99, 99);
-  height: 300px;
-  width: 300px;
-  border-radius: 20px;
-  border: solid 2px black;
-}
-
-div#A {
-  background-color: rgb(95, 214, 101);
-}
-
-div#B {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(6, 22, 66, 0.589),
-    rgb(86, 184, 179)
-  );
-}
-
-div#C {
-  background-image: url(Imagens/pattern003.png);
 }
