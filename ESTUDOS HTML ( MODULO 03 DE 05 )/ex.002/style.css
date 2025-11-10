@@ -1,5 +1,10 @@
 body {
+    height: 100vh;
+    width: 100vw;
     background-image: url(imagem/mascote.png);
-    background-repeat: repeat-x;
-    background-size: 10%; 
+    background-repeat: no-repeat;
+    background-size: 400px; 
+    background-position: top;
 }
+
+ 
