@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  background-image: url(Imagens/wallpaper005.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  ;
+}

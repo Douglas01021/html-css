@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(Imagens/mascote.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center bottom;
+    background-color: rgba(149, 202, 184, 0.452);
+}
