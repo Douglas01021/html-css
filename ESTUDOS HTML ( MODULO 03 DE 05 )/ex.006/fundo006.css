@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+    background-image: url(Imagens/wallpaper002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.conteiner {
+    background-color: rgb(187, 218, 226);
+    width: 400px;
+    margin: auto ;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 1px 5px 20px;
+
+}
