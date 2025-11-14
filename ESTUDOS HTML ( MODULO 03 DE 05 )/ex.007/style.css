@@ -2,7 +2,9 @@
   box-sizing: border-box;
   height: auto; }
 
-
+body {
+  background-color: rgba(226, 141, 158, 0.781);
+}
 .conteiner {
   position: relative;
   background-color: rgb(255, 135, 135);
