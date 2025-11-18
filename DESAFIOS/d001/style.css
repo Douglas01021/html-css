@@ -18,7 +18,7 @@
 html, body {
     min-height: 100vh;
     background-color: var(--cor02);
-}
+
 
 header {
     background-color: var(--cor05);
@@ -43,17 +43,36 @@ a {
     color: var(--cor04);
     text-decoration: none;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.imagem > p {
+    width: 300px;
+    background-color: var(--cor05);
+    
+}
+
+.normal {
+    background-color: var(--cor03);
+}
+
+.imagem {
+    color: var(--cor04)
+}
 footer {
     background-color: var(--cor05);
     color:#F2F2F2;
     text-align: center;
     padding: 10px;
-    min-height: 50px
-
 }
