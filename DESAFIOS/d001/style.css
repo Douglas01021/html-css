@@ -63,33 +63,28 @@ section {
   padding-left: 30px;
   font-family: var(--fontsecundaria);
   font-size: 3vh;
-}
-
- section > p {
-  
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 section#img01 {
-    background-image: url(imagens/background001.jpg);
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: contain;
-
+  background-image: url(imagens/background001.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
 }
 
 section#img02 {
-    background-image: url(imagens/background002.jpg);
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(imagens/background002.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
 }
-
 
 .imagem > p {
   display: inline-block;
-  background-color: var(--cor05);
-  padding-left: 30px;
+  background-color: rgba(42, 94, 161, 0.329);
+  padding-right: 60px;
   padding: 5px;
+  text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
 
 .normal {
@@ -98,6 +93,7 @@ section#img02 {
 
 .imagem {
   color: var(--cor04);
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.349);
 }
 
 footer {
